@@ -18,7 +18,7 @@
                 <div class="box-body">
                     <div class="text-info" wire:loading>Loading..</div>
                     <br><hr>
-                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ _("All  Requtested Appointments") }}</div>
+                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ __("All  Requtested Appointments") }}</div>
                     <table width="100%" class="table table-hover"   id="">
                         <thead>
                             <tr>

@@ -17,7 +17,7 @@
             <div class="box box-primary" >
                 <div class="box-body">
                     <div class="text-info" wire:loading>Loading..</div>
-                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ _("Clients Messages") }}</div>
+                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ __("Clients Messages") }}</div>
                     <table  class="table table-hover">
                         <thead>
                             <tr>

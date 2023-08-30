@@ -47,7 +47,7 @@
                         </div>
                     </form><br><hr>
 
-                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ _("All  rooms") }}</div>
+                    <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded" >{{ __("All  rooms") }}</div>
                     <table  class="table table-hover"  style="" id="">
                         <thead>
                             <tr>

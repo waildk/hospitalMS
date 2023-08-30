@@ -121,7 +121,7 @@
                     </form><br>
                     <hr>
                     <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded">
-                        {{ _('All  nurses') }}</div>
+                        {{ __('All  nurses') }}</div>
                     <table width="100%" class="table table-hover" id="">
                         <thead>
                             <tr>

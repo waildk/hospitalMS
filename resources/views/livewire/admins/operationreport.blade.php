@@ -72,7 +72,7 @@
                     </form><br>
                     <hr>
                     <div class="text-capitalize bg-dark p-2 shadow mb-3 text-center text-lg text-light rounded">
-                        {{ _('All  operationReports') }}</div>
+                        {{ __('All  operationReports') }}</div>
                     <table class="table table-hover" style="" id="">
                         <thead>
                             <tr>

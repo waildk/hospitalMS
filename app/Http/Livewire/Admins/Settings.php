@@ -46,36 +46,36 @@ class Settings extends Component
                 'working_horse' => 'required',
                 'description' => 'required',
                 ]);
-                if (!$this->c_favicon) {
-                    $this->validate([
-                        'favicon' => 'required|image'
-                    ]);
-                  $favicon = $this->storeImage($this->favicon);
+                // if (!$this->c_favicon) {
+                //     $this->validate([
+                //         'favicon' => 'required|image'
+                //     ]);
+                //   $favicon = $this->storeImage($this->favicon);
 
-                }
-                if (!$this->c_icon_logo) {
-                    $this->validate([
-                        'icon_logo' => 'required|image'
-                    ]);
-                  $icon_logo = $this->storeImage($this->icon_logo);
+                // }
+                // if (!$this->c_icon_logo) {
+                //     $this->validate([
+                //         'icon_logo' => 'required|image'
+                //     ]);
+                //   $icon_logo = $this->storeImage($this->icon_logo);
 
-                }
-                if (!$this->c_logo) {
-                    $this->validate([
-                        'logo' => 'required|image'
-                    ]);
-                  $logo = $this->storeImage($this->logo);
-                }
+                // }
+                // if (!$this->c_logo) {
+                //     $this->validate([
+                //         'logo' => 'required|image'
+                //     ]);
+                //   $logo = $this->storeImage($this->logo);
+                // }
 
             general_settings::create([
                 'title'          => $this->title,
                 'business_email' => $this->business_email,
-                'favicon_path'   => ($favicon ?? $this->c_favicon),
+                'favicon_path'   => 'hello',
                 'address'        => $this->address,
                 'business_phone' => $this->business_phone,
                 'description'    => $this->description,
-                'logo_path'      => ($logo ?? $this->c_logo),
-                'icon_logo_path'      => ($icon_logo ?? $this->c_icon_logo),
+                'logo_path'      => 'hello',
+                'icon_logo_path'      => 'hello',
                 'working_horse'      => $this->working_horse,
             ]);
 

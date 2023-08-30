@@ -18,22 +18,22 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="{{ $app ? config('app.url') . 'storage/' . $app->favicon_path : config("app.url").'images/fevicon.ico.png'}} " type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('images/fevicon.ico.png')}} " type="image/x-icon" />
 
     <link rel="apple-touch-icon"
-        href="{{ $app ? config('app.url') . 'storage/' . $app->favicon_path :  config("app.url").'images/favicon.png' }}">
+        href="{{ asset('images/favicon.png') }}">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ config('app.url') }}css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="{{  config('app.url') }}css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     <!-- Colors CSS -->
-    <link rel="stylesheet" href="{{  config('app.url') }}css/colors.css">
+    <link rel="stylesheet" href="{{ asset('css/colors.css')}}">
     <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="{{  config('app.url') }}css/versions.css">
+    <link rel="stylesheet" href="{{ asset('css/versions.css')}}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{{  config('app.url') }}css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css')}}">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{  config('app.url') }}css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/custom.css')}}">
     <!-- Modernizer for Portfolio -->
     <script src="js/modernizer.js"></script>
     <!-- [if lt IE 9] -->
@@ -45,19 +45,19 @@
 
     <!-- LOADER -->
     <div id="preloader">
-        <a href="{{ url('/') }}"><img class="preloader" src="{{ config('app.url') }}images/loaders/heart-loading2.gif" alt=""></a>
+        <a href="{{ url('/') }}"><img class="preloader" src="{{ asset('images/loaders/heart-loading2.gif')}}" alt=""></a>
     </div>
     <!-- END LOADER -->
     <header>
         <div class="header-top wow fadeIn">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}"><img
-                        src="{{ $app ? config('app.url') . 'storage/' . $app->logo_path :  config("app.url").'images/logo.png' }}"
+                        src="{{ asset('images/logo.png') }}"
                         alt="logo image "></a>
                 <div class="right-header">
                     <div class="header-info">
                         <div class="info-inner">
-                            <span class="icontop"><img src="{{ config('app.url') }}images/phone-icon.png" alt="#"></span>
+                            <span class="icontop"><img src="{{ asset('images/phone-icon.png')}}" alt="#"></span>
                             <span class="iconcont"><a
                                     href="tel:{{ $app ? $app->business_phone : '123 123 123' }}">{{ $app ? $app->business_phone : '123 123 123' }}</a></span>
                         </div>
